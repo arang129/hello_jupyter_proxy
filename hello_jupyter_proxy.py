@@ -7,7 +7,7 @@ from copy import copy
 from pathlib import Path
 from http.server import BaseHTTPRequestHandler, HTTPServer
 
-__version__ = '0.47'
+__version__ = '0.48'
 
 # This is the entry point for jupyter-server-proxy . The packaging metadata
 # tells it about this function. For details, see:
@@ -95,11 +95,6 @@ TEMPLATE = """\
            	      Bookmarks
            	  </font></a>
            	  </td>
-			  <td><a href="#tutorials">
-				  <font face="arial" color="#ffffff" size="4">
-				   Tutorials
-				  </font></a>
-			  </td>
 			  <td><a href="#about">
 				<font face="arial" color="#ffffff" size="4">
 			    About
@@ -278,46 +273,6 @@ TEMPLATE = """\
    </tr>
 </table>
 <!-- End Bookmarks -->
-
-<!-- Start Tutorials -->
-<table border="0" id="tutorials" width="100%" cellpadding="0" cellspacing="0" bgcolor="#292929">
-	<tr>
-		 <td>
-			 <table border="0" width="100%" cellpadding="15" cellspacing="0" align="center">
-			 <!-- Heading Start-->
-			<tr>
-				   <td height="160" align="center" valign="middle" colspan="3">
-						<font face="arial" size="6" color=" #f3971b">
-						  Tutorials
-					   </font>
-					   <hr width="70" color="#f3971b">
-				   </td>
-			</tr>
-		  <!-- Heading  End-->
-		  <tr>
-			<td width="100%" valign="top">
-				<table border="0" width="100%" cellpadding="0" cellspacing="0" align="center">
-					  <tr>
-						   <td align="center" valign="middle" height="120">
-							<iframe src="https://memos.yunlab.app/explore" width="90%" height="1000px" frameborder="0"></iframe>
-						   </td>
-					  </tr>
-				</table>  
-		  </td>
-		  </tr>
-		  <!-- section padding bottom -->
-			 <tr>
-				   <td height="60" colspan="3">
-				   
-				   </td>
-			 </tr>
-			<!-- section padding bottom End-->
-			 </table>
-		 </td>
-	</tr>
-  </table>
-  <!-- End Tutorials -->
-  
 
 <!-- Start About -->
 <table border="0" id="about" width="100%" cellpadding="0" cellspacing="0" bgcolor="#353535">
