@@ -7,7 +7,7 @@ from copy import copy
 from pathlib import Path
 from http.server import BaseHTTPRequestHandler, HTTPServer
 
-__version__ = '0.48'
+__version__ = '0.49'
 
 # This is the entry point for jupyter-server-proxy . The packaging metadata
 # tells it about this function. For details, see:
@@ -165,11 +165,11 @@ TEMPLATE = """\
          	  	<tr>
          	  		<td align="center">
          	  			<font face="arial" size="5" color="#ffffff">
-						Tutorials
+						EClass
          	  		   </font>
          	  		   <br/><br/>
-						  <a href="https://memos.yunlab.app/" target="_blank">
-							<img src="https://i.imgur.com/QxuVTyY.png" width="100" alt="Tutorials" title="Tutorials">
+						  <a href="https://eclass.yuntech.edu.tw/" target="_blank">
+							<img src="https://i.imgur.com/nwM549O.png" width="100" alt="EClass" title="EClass">
 						  </a>
          	  		</td>
          	  	</tr>
@@ -246,11 +246,11 @@ TEMPLATE = """\
 					<tr>
 						<td align="center">
 							<font face="arial" size="5" color="#ffffff">
-							Blog
+							YunTech
 						   </font>
 						   <br/><br/>
-						   <a href="https://blog.yunlab.synology.me/" target="_blank">
-							<img src="https://i.imgur.com/lEcnJPU.png" width="100" alt="Blog" title="Blog">
+						   <a href="https://umf.yuntech.edu.tw/" target="_blank">
+							<img src="https://i.imgur.com/rtqY6sE.png" width="100" alt="YunTech" title="YunTech">
 						  </a>
 						</td>
 					</tr>
