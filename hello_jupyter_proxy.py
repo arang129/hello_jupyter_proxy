@@ -7,7 +7,7 @@ from copy import copy
 from pathlib import Path
 from http.server import BaseHTTPRequestHandler, HTTPServer
 
-__version__ = '0.49'
+__version__ = '0.50'
 
 # This is the entry point for jupyter-server-proxy . The packaging metadata
 # tells it about this function. For details, see:
@@ -217,7 +217,7 @@ TEMPLATE = """\
 					    ChatGPT
          	  		   </font>
          	  		   <br/><br/>
-						  <a href="https://gpt.yunlab.synology.me/" target="_blank">
+						  <a href="https://gpt.yunlab.app/" target="_blank">
 							<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/ChatGPT_logo.svg/640px-ChatGPT_logo.svg.png" width="100" alt="ChatGPT" title="ChatGPT">
 						  </a>
          	  		</td>
