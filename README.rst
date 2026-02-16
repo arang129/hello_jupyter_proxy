@@ -8,11 +8,11 @@ This mechanism allows a user to run a separate web app through JupyterHub.
 To try it, install this package into the same Python environment which is
 used to launch your single-user server::
 
-`sudo -E pip install git+https://github.com/arang129/hello_jupyter_proxy.git`
+sudo -E pip install git+https://github.com/arang129/hello_jupyter_proxy.git
 
-`sudo -E pip install --upgrade git+https://github.com/arang129/hello_jupyter_proxy.git`
+sudo -E pip install --upgrade git+https://github.com/arang129/hello_jupyter_proxy.git
 
-`sudo -E pip uninstall hello_jupyter_proxy`
+sudo -E pip uninstall hello_jupyter_proxy
 
 If your server is already running use the JupyterHub control panel
 (``/hub/home``) to stop and start it. You should have a new 'hello' option in
